@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?display=swap&family=Cabin');
+
+:root {
+  /* Deep Purple */
+  --dp-100: #d1c4e9;
+  --dp-500: #673ab7;
+  --dp-700: #512da8;
+  --dp-900: #311b92;
+
+  --primary: teal;
+  --secondary: purple;
+  --link: #f00;
+  --linkhover: orange;
+  --background: pink;
+  --text: #444;
+  --input: fuchsia
+  --button: aqua
+
+  --fonte: "Cabin";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--fonte), Arial, Helvetica, sans-serif;
+  color: var(--text);
+  font-size: 1.6rem;
+  background-color: var(--background);
+  padding:10px;
+}
+
+h1, h2 {
+  color:var(--primary);
+}
+h1 { font-size: 6rem }
+h2 { font-size: 4rem }
+
+p {
+  margin: 2rem 0;
+  font-size: 3rem;
+  color: var(--text)
+}
+
+input {
+  font-size: 2rem;
+  color: var(--input);
+  padding: 1.6rem 2rem;
+  border: 2px solid var(--input);
+  border-radius:1rem;
+  outline-color:var(--input);
+  accent-color: var(--input);
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--button);
+  padding: 1.6rem 2rem;
+  border-radius:1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 2px solid var(--button);
+  color: var(--text);
+  font-weight: bold;
+}
