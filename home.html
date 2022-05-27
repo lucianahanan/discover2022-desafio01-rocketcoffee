@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link rel="preload" as="image" href="./assets/menu-buguer-close.svg">
+  <link rel="preload" as="image" href="./assets/menu-buguer-open.svg">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?display=swap&family=Manrope:wght@400;700" as="style">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Manrope:wght@400;700">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div id="container">
+    <header id="desktop">
+      <a href="home.html"><img id="logo" src="./assets/logo-desktop.svg" alt="Logo"></a>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Recompensas</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Lojas</a></li>
+        </ul>
+      </nav>
+      <a class="btn" href="#">Pegar meu Café</a>
+    </header>
+    <header id="mobile">
+      <a href="home.html"><img id="logo" src="./assets/logo-mobile.svg" alt="Logo Rocketseat"></a>
+      <a href="#"><div id="burguer" class="closed"></div></a>
+    </header>
+
+    <main>
+      <p>O café que fará seu código decolar para o próximo nível.</p>
+      <a class="btn" href="#">Pegar meu Café</a>
+      <h1>Great Coffee</h1>
+      <h2>&lt;Great Code/&gt;</h2>
+      <img src="./assets/rocket-coffee.png" alt="" loading="lazy">
+    </main>
+
+    <div id="modal" class="visible">
+      <nav>
+        <ul>
+          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Recompensas</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Lojas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>
