@@ -7,6 +7,6 @@ I wrote from scratch all html, css and javascript used in this challenge. The ta
 
 <strong>Plus:</strong> added Sass to the project, to help me on some css settings.
 
-On CSS, along with Sass, I'm using colors variables, dynamic breakpoints, rem sizes, a CSS reset, media queries.
+On CSS, along with Sass, I'm using colors variables, dynamic breakpoints, rem sizes, a CSS reset, media queries, flexbox.
 
 On Javascript, I'm using functions and events to select and change some elements and classes. I was going to use javascript to move the top button to content when in mobile, but changed my mind and decided to use pure CSS instead, left the code there just for future references.
